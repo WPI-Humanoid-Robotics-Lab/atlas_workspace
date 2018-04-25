@@ -1,0 +1,14 @@
+#What workstation this file is for
+repositories:
+  # Depends on:
+    tough:
+        type: git
+        url: https://github.com/WPI-Humanoid-Robotics-Lab/tough.git
+        version: master
+        
+  #Depends on:
+    srcsim_docker:
+        type: git
+        url: https://github.com/WPI-Humanoid-Robotics-Lab/srcsim_docker.git
+        version: master
+
