@@ -19,6 +19,8 @@ sudo apt-get update
 sudo apt-get install python-catkin-tools  
 
 # Instructions for workspace:  
+
+Navigate to workspace ( cd ~/workspace )
 catkin config --init --mkdirs  
 cd src  
 sudo vcs import < path-to-yaml/repos.yaml  
