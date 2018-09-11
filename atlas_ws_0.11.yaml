@@ -34,3 +34,10 @@ repositories:
        type: git
        url: https://github.com/WPI-Humanoid-Robotics-Lab/tough_moveit_configs.git
        version: master
+ 
+ #Depends on:
+   atlas_models:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/atlas_models.git
+       version: master
+       
