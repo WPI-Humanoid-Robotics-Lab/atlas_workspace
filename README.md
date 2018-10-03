@@ -30,4 +30,6 @@ Navigate to workspace ( cd ~/workspace )
 catkin config --init --mkdirs  
 cd src  
 vcs import < path-to-yaml/repos.yaml  
+rosdep install --from-paths src --ignore-src -r -y 
+catkin_make
 ```
