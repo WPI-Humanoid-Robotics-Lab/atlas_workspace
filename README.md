@@ -33,3 +33,9 @@ vcs import < path-to-yaml/repos.yaml
 rosdep install --from-paths src --ignore-src -r -y 
 catkin_make
 ```
+
+# Workspaces 
+- `atlas_gazebo_ws.yaml` - Configures all the repos required for running atlas robot in gazebo simulator on Ubuntu 16.04, ros kinetic, and controller version : 0.11 
+- `atlas_ws_0.11.yaml` - Configures all the repos required for running atlas robot in SCS simulator on Ubuntu 16.04, ros kinetic, and controller version : 0.11. If we manually copy val_description into ros packages from ubuntu 14.04, valkyrie can be used with this config.
+- `atlas_ws_0.9.yaml` - Configures all the repos required for running atlas robot in SCS simulator on Ubuntu 16.04, ros kinetic, and controller version : 0.9. If we manually copy val_description into ros packages from ubuntu 14.04, valkyrie can be used with this config.
+- `src_repos.yaml` - Configures srcsim in docker. This is requires Ubuntu 14.04 and ros indigo.
