@@ -3,7 +3,7 @@ repositories:
    tough:
        type: git
        url: https://github.com/WPI-Humanoid-Robotics-Lab/tough.git
-       version: kinetic-devel
+       version: 0.1a
        
  #Depends on:
    ihmc_repos/ihmc_ros_core:
