@@ -1,0 +1,30 @@
+repositories:
+ #Depends on:
+   ihmc_repos/ihmc_ros_core:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/ihmc_ros_core.git
+       version: 0.8.2-fix
+
+ #Depends on:
+   ihmc_repos/ihmc_ros_control:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/ihmc-ros-control.git
+       version: 0.8.2-fix
+
+ #Depends on:
+   ihmc_repos/ihmc_atlas_ros:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/ihmc_atlas_ros.git
+       version: 0.8.2
+ 
+ #Depends on:
+   ihmc_repos/ihmc_valkyrie_ros:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/ihmc_valkyrie_ros.git
+       version: open-robotics-0.8.2-release
+ 
+  #Depends on:
+   tough:
+       type: git
+       url: https://github.com/WPI-Humanoid-Robotics-Lab/tough.git
+       version: kinetic-0.8.2
